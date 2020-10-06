@@ -3,9 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
 
-gem 'bcrypt', '~> 3.1.7'
+#gem 'bcrypt', '~> 3.1.7'
 
-gem 'jwt'
+gem 'devise-jwt'
 gem 'simple_command'
 gem 'devise'
 gem 'rack-cors', :require => 'rack/cors'
